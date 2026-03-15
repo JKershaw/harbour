@@ -1,0 +1,38 @@
+{
+  "name": "@jkershaw/harbour",
+  "version": "0.1.0",
+  "description": "Zero-dependency local service discovery dashboard",
+  "main": "index.js",
+  "bin": {
+    "harbour": "./index.js"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "files": [
+    "index.js",
+    "src/",
+    "public/",
+    "LICENSE",
+    "CONTRIBUTING.md"
+  ],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JKershaw/harbour-cat.git",
+    "directory": "harbour"
+  },
+  "keywords": [
+    "localhost",
+    "dashboard",
+    "service-discovery",
+    "dev-tools"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@jkershaw/mangodb": "^0.1.4"
+  }
+}
