@@ -1,6 +1,6 @@
 # Harbour
 
-Zero-dependency local service discovery dashboard. One command shows every service running on your machine.
+One-dependency local service discovery dashboard. One command shows every service running on your machine.
 
 ![Harbour dashboard](https://harbour.cat/screenshots/dashboard.png)
 
